@@ -64,5 +64,15 @@ body,html{font-family:Montserrat,sans-serif;font-weight:400;overflow-x:hidden;-w
 .experience-list li strong {
   color: #0073e6;
 }
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.edu-logo {
+  max-width: 150px; /* Adjust the width as needed */
+  height: auto;
+}
 
 
