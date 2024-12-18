@@ -21,3 +21,48 @@ body,html{font-family:Montserrat,sans-serif;font-weight:400;overflow-x:hidden;-w
   display: inline-block;
 }
 
+
+.experience {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.experience-image img {
+  max-width: 150px;
+}
+
+.experience-info {
+  max-width: 800px;
+}
+
+.experience-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-info h5 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.experience-list {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.experience-list li {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+}
+
+.experience-list li strong {
+  color: #0073e6;
+}
+
+
