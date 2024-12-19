@@ -1,7 +1,0 @@
-User-Agent: DMCA.com Page Protection Crawling Service
-Disallow:
-
-User-Agent: *
-Allow: /
-
-Sitemap: https://sanket101-git.github.io/sitemap.xml
