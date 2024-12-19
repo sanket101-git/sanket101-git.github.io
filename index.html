@@ -622,6 +622,30 @@
                </div>
           </div>
           </div>
+          <div class="section-padding resume-section" id="resume">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="section-title">
+                    <h1>Resume</h1>
+                  </div>
+                </div>
+                <div class="col-sm-8">
+                  <div class="resume-content">
+                    <a href="https://github.com/sanket101-git/sanket101-git.github.io/blob/master/Sanket_Janolkar_Resume.pdf" class="resume-popup" target="_blank">
+                      <img src="https://github.com/sanket101-git/sanket101-git.github.io/blob/master/Sanket_Janolkar_Resume_thumbnail.png" alt="My Resume" class="img-responsive" style="max-width: 200px;">
+                    </a>
+                    <div>
+                      <a href="https://github.com/sanket101-git/sanket101-git.github.io/blob/master/Sanket_Janolkar_Resume.pdf" download class="btn btn-primary" style="margin-top: 10px;">
+                        Download Resume
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <!-- <div id=footer>
                <div class="container text-center">
                     <div class=footer><a
@@ -663,3 +687,13 @@
           <script src=js/magnific-popup.min.js></script>
           <script src=js/main.js></script>
           <script src="js/pwa.js"></script>
+          <script>
+                 $(document).ready(function() {
+                   $('.resume-popup').magnificPopup({
+                     type: 'iframe',
+                     closeBtnInside: true,
+                     mainClass: 'mfp-fade'
+                   });
+                 });
+          </script>
+
